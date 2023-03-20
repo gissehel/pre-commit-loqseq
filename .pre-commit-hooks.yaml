@@ -1,0 +1,9 @@
+-   id: logsec-pre-commit
+    name: 'logsec-pre-commit'
+    entry: run-logsec-pre-commit.sh
+    always_run: true
+-   id: logsec-post-commit
+    name: 'logsec-post-commit'
+    entry: run-logsec-post-commit.sh
+    always_run: true
+    stages: [post-commit]
