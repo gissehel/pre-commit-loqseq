@@ -2,8 +2,10 @@
     name: 'logsec-pre-commit'
     entry: run-logsec-pre-commit.sh
     always_run: true
+    language: script
 -   id: logsec-post-commit
     name: 'logsec-post-commit'
     entry: run-logsec-post-commit.sh
     always_run: true
+    language: script
     stages: [post-commit]
