@@ -1,11 +1,11 @@
--   id: logsec-pre-commit
-    name: 'logsec-pre-commit'
-    entry: run-logsec-pre-commit.sh
+-   id: logseq-pre-commit
+    name: 'logseq-pre-commit'
+    entry: run-logseq-pre-commit.sh
     always_run: true
     language: script
--   id: logsec-post-commit
-    name: 'logsec-post-commit'
-    entry: run-logsec-post-commit.sh
+-   id: logseq-post-commit
+    name: 'logseq-post-commit'
+    entry: run-logseq-post-commit.sh
     always_run: true
     language: script
     stages: [post-commit]
